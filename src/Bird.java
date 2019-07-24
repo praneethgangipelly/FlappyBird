@@ -27,7 +27,7 @@ public class Bird extends FlappyBird{
 
 	}
 
-	/** Checks for collision between the pipes and the bird **/
+	/** Checks for collision between the pipes and the bird quickly**/
 	public boolean pipeCollision(){
 
 		for (GImage pipeImage : Data.pipeTop)
